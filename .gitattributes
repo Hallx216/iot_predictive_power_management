@@ -1,0 +1,9 @@
+# Handle line endings automatically
+* text=auto
+
+# Force text files to use LF
+*.py text eol=lf
+*.ipynb text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
