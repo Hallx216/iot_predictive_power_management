@@ -1,0 +1,13 @@
+Metric,Value,Source
+Test accuracy (next-step occupancy),0.978,Notebook 01/02
+Test AUC-ROC,0.995,Notebook 01/02
+"Recommended thresholds (P_high, P_low)","(0.5, 0.4)",Notebook 04
+Energy saving vs always-active,80.0%,Notebook 05 (recomputed at optimal thresholds)
+Missed-activity rate,8.0%,Notebook 05 (recomputed at optimal thresholds)
+Projected battery life (always-active),12.5 days,"Notebook 03 model, recomputed"
+Projected battery life (ML scheduler),62.4 days,"Notebook 03 model, recomputed"
+5-fold stratified CV accuracy,0.990 ± 0.001,Gap Notebook 3
+5-fold stratified CV AUC-ROC,0.995 ± 0.001,Gap Notebook 3
+Median ML missed-activity rate (energy-matched blocks),2.2%,"Notebook 05, re-verified"
+Median static duty-cycle missed-activity rate (energy-matched),82.9%,"Notebook 05, re-verified"
+Wilcoxon signed-rank test (ML vs duty-cycle baseline),p = 0.0078 (significant),"Notebook 05, re-verified"
